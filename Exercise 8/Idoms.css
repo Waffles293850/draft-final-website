@@ -1,0 +1,24 @@
+.tier-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tier-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+
+}
+
+.tier-s, .tier-a, .tier-b {
+    background-color: black;
+    
+    padding: 10px;
+
+    margin: 5px;
+
+    border: 1px solid black;
+
+}
